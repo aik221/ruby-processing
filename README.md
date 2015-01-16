@@ -20,7 +20,7 @@ Then install ruby-processing (from rubygems-org) in the usual way
 
 `gem install ruby-processing` some systems eg Ubuntu may require `sudo` access
 
-To install jruby-complete use our built in tool (relies on `wget` to download [jruby-complete-1.7.18](http://jruby.org/download))
+To install jruby-complete use our built in tool (relies on `wget` to download [jruby-complete-9.0.0.0-pre](http://jruby.org/download))
 
 since ruby-processing-2.5.0 `rp5 setup install` (was `install_jruby_complete`)
 
@@ -29,10 +29,9 @@ If you haven't got `wget` just download jruby-complete-1.7.18 (for ruby-processi
 The vendored jruby-complete is only required for application export, and running certain sketches (eg shader sketches see [wiki][]).
 
 
-### How to build latest development version 2.6.7
+### How to build latest development version 2.7
 See [wiki](https://github.com/jashkenas/ruby-processing/wiki/How-to-build-latest-version)
 
-For previous release (version 2.6.6) checkout the "stable" branch and follow the same instructions
 
 ## Documentation
 
@@ -96,11 +95,8 @@ end
 
 This gem has been tested with the following ruby implementations
 
-* Ruby 1.9.3
-* Ruby 2.0.0
-* Ruby 2.1.2
 * Ruby 2.2.0
-* [JRuby][] preferred (required to use rubygems in sketches)
+* [JRuby-9.0.0.0-pre][] preferred (required to use rubygems in sketches)
 
 NB: current support for ruby-2.0 syntax is limited (and experimental see jruby documentation).
 However if you use JRuby-9.0.0.0-SNAPSHOT (since this [fix][]) you will find ruby-2.2 syntax is now supported. Future development of ruby-processing will target ruby-2.2 (with probable backward compatibitility with MRI ruby-2.1) any further backward compability will be accidental and unsupported (owing to limited resources).
@@ -118,7 +114,7 @@ From version 2.5.1 some previously implemented processing (convenience) methods 
 
 [license]:LICENSE.md
 [contributing]:CONTRIBUTING.md
-[jruby]:http://www.jruby.org/
+[JRuby-9.0.0.0-pre]:http://www.jruby.org/
 [processing]: http://www.processing.org/
 [download]:https://processing.org/download/
 [samples]:https://github.com/ruby-processing/Example-Sketches
