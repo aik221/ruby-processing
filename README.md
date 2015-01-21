@@ -20,7 +20,7 @@ Then install ruby-processing (from rubygems-org) in the usual way
 
 `gem install ruby-processing` some systems eg Ubuntu may require `sudo` access
 
-To install jruby-complete use our built in tool (relies on `wget` to download [jruby-complete-9.0.0.0-pre](http://jruby.org/download))
+To install jruby-complete use our built in tool (relies on `wget` to download [jruby-complete-9.0.0.0.pre1](http://jruby.org/download))
 
 since ruby-processing-2.5.0 `rp5 setup install` (was `install_jruby_complete`)
 
@@ -96,7 +96,7 @@ end
 This gem has been tested with the following ruby implementations
 
 * Ruby 2.2.0
-* [JRuby-9.0.0.0-pre][] preferred (required to use rubygems in sketches)
+* [JRuby-9.0.0.0.pre1][] preferred (required to use rubygems in sketches)
 
 NB: current support for ruby-2.0 syntax is limited (and experimental see jruby documentation).
 However if you use JRuby-9.0.0.0-SNAPSHOT (since this [fix][]) you will find ruby-2.2 syntax is now supported. Future development of ruby-processing will target ruby-2.2 (with probable backward compatibitility with MRI ruby-2.1) any further backward compability will be accidental and unsupported (owing to limited resources).
@@ -114,7 +114,7 @@ From version 2.5.1 some previously implemented processing (convenience) methods 
 
 [license]:LICENSE.md
 [contributing]:CONTRIBUTING.md
-[JRuby-9.0.0.0-pre]:http://www.jruby.org/
+[JRuby-9.0.0.0.pre1]:http://www.jruby.org/
 [processing]: http://www.processing.org/
 [download]:https://processing.org/download/
 [samples]:https://github.com/ruby-processing/Example-Sketches
